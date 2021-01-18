@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/eva/scibo/Fächer/S2 - Parallel Programming/Impl/matmult/matmult_functions.h
+
+/home/eva/scibo/Fächer/S2 - Parallel Programming/Impl/matmult/matmult_measuring.cpp
+matmult_measuring.h
+/home/eva/scibo/Fächer/S2 - Parallel Programming/Impl/matmult/matmult_measuring.h
+omp.h
+-
+cstdio
+-
+matmult_functions.h
+/home/eva/scibo/Fächer/S2 - Parallel Programming/Impl/matmult/matmult_functions.h
+matrix_helpers.h
+/home/eva/scibo/Fächer/S2 - Parallel Programming/Impl/matmult/matrix_helpers.h
+
+/home/eva/scibo/Fächer/S2 - Parallel Programming/Impl/matmult/matmult_measuring.h
+
+/home/eva/scibo/Fächer/S2 - Parallel Programming/Impl/matmult/matrix_helpers.h
+string
+-
+chrono
+-
+
