@@ -2,10 +2,10 @@
 This repository hold the programming code of a study project on parallel programming on CPUs with OpenMP. To illustrate my text, I tried to give minimal examples on common OpenMP pragmas and accelerate the execution of a matrix-matrix-multiplication. Because I did not find an extensive repository about this, I wanted to share my findings here.
 
 ## Table of Contents
-[Structure of the repository](#structure)
-[Minimal Examples](#expls)
-[Matrix-Matrix-Multiplication](#mult)
-[How to execute it](#exec)
+[Structure of the repository](#structure)  
+[Minimal Examples](#expls)  
+[Matrix-Matrix-Multiplication](#mult)  
+[How to execute it](#exec)  
 
 <a name="structure"/>
 ## Structure of the repository
