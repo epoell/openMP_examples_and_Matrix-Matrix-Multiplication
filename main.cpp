@@ -16,29 +16,29 @@ int main() {
         }
     }
 
-//	//Minimal Examples of OpenMP directives
-//	//scheduling example takes very long, so only run it once
-//	bool schedule = true;
+	//Minimal Examples of OpenMP directives
+	//scheduling example takes very long, so only run it once
+	bool schedule = true;
 //	for (int i=0; i<3; i++) {
-//		minimal_examples(schedule);
-//		schedule = false;
+		minimal_examples(schedule);
+		schedule = false;
 //	}
 
-//    //Matrix Multiplication
-//    //---------------------
-//    //Make Matrix x Matrix Multiplication faster with different directives
+    //Matrix Multiplication
+    //---------------------
+    //Make Matrix x Matrix Multiplication faster with different directives
 //    for (int i = 0; i < 5; i++) {
         matmult_buildup();
 //    }
-//
-//    //Compare basic and fastes directive along cores
+
+    //Compare basic and fastes directive along cores
 //    for (int i = 0; i < 2; i++) {
-//        matmult_increase_threads();
+        matmult_increase_threads();
 //    }
-//
-//    //Compare sequential and fastes directive along Matrix size
+
+    //Compare sequential and fastes directive along Matrix size
 //    for (int i = 0; i < 2; i++) {
-//        matmult_increase_size();
+        matmult_increase_size();
 //    }
 
     if (print_to_file) {
@@ -47,8 +47,6 @@ int main() {
 
     return 0;
 }
-
-
 
 
 
