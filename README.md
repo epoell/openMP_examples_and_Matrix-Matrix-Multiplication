@@ -1,6 +1,13 @@
 # OpenMP Examples
 This repository hold the programming code of a study project on parallel programming on CPUs with OpenMP. To illustrate my text, I tried to give minimal examples on common OpenMP pragmas and accelerate the execution of a matrix-matrix-multiplication. Because I did not find an extensive repository about this, I wanted to share my findings here.
 
+## Table of Contents
+[Structure of the repository](#structure)  
+[Minimal Examples](#expls) 
+[Matrix-Matrix-Multiplication](#mult)
+[How to execute it](#exec)
+
+<a name="structure"/>
 ## Structure of the repository
 The repository is structured as follows:
 
@@ -12,6 +19,7 @@ The repository is structured as follows:
 - **matmult_measuring.cpp/.h** is called by the main-function and itself calls the multiplication functions. It takes care of time measuring and a structured output of the experiments
 - **matrix_helpers.cpp/.h** is a collection of helper functions to measure the time of the multiplication, initialise or reset matrices and check the correctness of the matrix product
 
+<a name="expls"/>
 ## Minimal Examples
 The minimal examples include the following pragmas, options and functions:
 
@@ -38,6 +46,8 @@ The minimal examples include the following pragmas, options and functions:
 - omp_get_team_size(omp_get_level())
 - omp_set_num_threads(x)
 
-## Matrix Multiplication
+<a name="mult"/>
+## Matrix-Matrix-Multiplication
 
+<a name="exec"/>
 ## How to execute it
