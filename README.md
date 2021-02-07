@@ -3,11 +3,8 @@ This repository hold the programming code of a study project on parallel program
 
 ## Table of Contents
 [Structure of the repository](#structure)
-
 [Minimal Examples](#expls)
-
 [Matrix-Matrix-Multiplication](#mult)
-
 [How to execute it](#exec)
 
 <a name="structure"/>
