@@ -5,12 +5,12 @@ This repository hold the programming code of a study project on parallel program
 The repository is structured as follows:
 
 - **main.cpp** combines all experiments
-- **min_examples** holds the code for the minimal examples on common pragmas
+- **min_examples.cpp/.h** holds the code for the minimal examples on common pragmas
 - **matmult_functions.h** combines the signatures of all functions to succeedingly accelerate execution of matrix-matrix-multiplication
 - **matmult_sequential.cpp** multiplies two matrices sequentially with increasingly memory efficient algorithms
 - **matmult_parallel.cpp** uses different OpenMP pragmas to multiply the matrices in parallel
-- **matmult_measuring** is called by the main-function and itself calls the multiplication functions. It takes care of time measuring and a structured output of the experiments
-- **matrix_helpers** is a collection of helper functions to measure the time of the multiplication, initialise or reset matrices and check the correctness of the matrix product
+- **matmult_measuring.cpp/.h** is called by the main-function and itself calls the multiplication functions. It takes care of time measuring and a structured output of the experiments
+- **matrix_helpers.cpp/.h** is a collection of helper functions to measure the time of the multiplication, initialise or reset matrices and check the correctness of the matrix product
 
 ## Minimal Examples
 The minimal examples include the following pragmas, options and functions:
