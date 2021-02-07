@@ -7,8 +7,9 @@ This repository hold the programming code of a study project on parallel program
 [Matrix-Matrix-Multiplication](#mult)  
 [How to execute it](#exec)  
 
-<a name="structure"/>
+
 ## Structure of the repository
+<a name="structure"/>
 The repository is structured as follows:
 
 - **main.cpp** combines all experiments
@@ -19,8 +20,8 @@ The repository is structured as follows:
 - **matmult_measuring.cpp/.h** is called by the main-function and itself calls the multiplication functions. It takes care of time measuring and a structured output of the experiments
 - **matrix_helpers.cpp/.h** is a collection of helper functions to measure the time of the multiplication, initialise or reset matrices and check the correctness of the matrix product
 
-<a name="expls"/>
 ## Minimal Examples
+<a name="expls"/>
 The minimal examples include the following pragmas, options and functions:
 
 - parallel
@@ -46,8 +47,8 @@ The minimal examples include the following pragmas, options and functions:
 - omp_get_team_size(omp_get_level())
 - omp_set_num_threads(x)
 
-<a name="mult"/>
 ## Matrix-Matrix-Multiplication
+<a name="mult"/>
 
-<a name="exec"/>
 ## How to execute it
+<a name="exec"/>
