@@ -1,1 +1,0 @@
-/usr/bin/c++   -fopenmp -g   CMakeFiles/matmult.dir/main.cpp.o CMakeFiles/matmult.dir/matmult_seq.cpp.o CMakeFiles/matmult.dir/matrix_helpers.cpp.o CMakeFiles/matmult.dir/matmult_parallel.cpp.o CMakeFiles/matmult.dir/min_examples.cpp.o CMakeFiles/matmult.dir/matmult_measuring.cpp.o  -o matmult 

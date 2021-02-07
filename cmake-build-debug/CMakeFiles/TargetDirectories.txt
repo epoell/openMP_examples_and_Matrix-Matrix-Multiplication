@@ -1,3 +1,0 @@
-/home/eva/scibo/Fächer/S2 - Parallel Programming/Impl/matmult/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/eva/scibo/Fächer/S2 - Parallel Programming/Impl/matmult/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/eva/scibo/Fächer/S2 - Parallel Programming/Impl/matmult/cmake-build-debug/CMakeFiles/matmult.dir
