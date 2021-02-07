@@ -1,5 +1,5 @@
 # OpenMP Examples
-This repository hold the programming code of a study project on parallel programming on CPUs with OpenMP. To illustrate my text I tried to give minimal examples on common OpenMP pragmas and accelerate the execution of a matrix-matrix-multiplication.
+This repository hold the programming code of a study project on parallel programming on CPUs with OpenMP. To illustrate my text, I tried to give minimal examples on common OpenMP pragmas and accelerate the execution of a matrix-matrix-multiplication.
 
 ## Structure of the repository
 The repository is structured as follows:
@@ -37,3 +37,6 @@ The minimal examples include the following pragmas, options and functions:
 - omp_get_team_num()
 - omp_get_team_size(omp_get_level())
 - omp_set_num_threads(x)
+
+## Matrix Multiplication
+## How to execute it
